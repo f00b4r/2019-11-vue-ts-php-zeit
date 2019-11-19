@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "www/dist",
+    "sourceMap": false,
+    "declaration": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./web/@types"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true
+  },
+  "include": [
+    "web/**/*"
+  ],
+  "exclude": [
+    "api",
+    "var",
+    "vendor"
+  ]
+}

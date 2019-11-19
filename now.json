@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "dag",
+  "scope": "juicyfx",
+  "regions": ["all"],
+  "functions": {
+    "api/index.php": {
+      "runtime": "now-php@0.0.7"
+    }
+  },
+  "routes": [
+    { "src": "/api/(.*)",  "dest": "/api/index.php" }
+  ]
+}

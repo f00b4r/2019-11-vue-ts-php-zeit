@@ -1,0 +1,16 @@
+# IDE
+.DS_Store
+.idea
+
+# Parcel
+/.cache
+/public
+
+# NPM
+/node_modules
+
+# PHP
+/vendor
+
+# App
+/var/*
